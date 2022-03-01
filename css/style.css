@@ -166,7 +166,7 @@
 
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: topmover 2s infinite;
+    animation: topmover 2s linear;
 }
 @keyframes topmover {
     0% {
