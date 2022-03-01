@@ -105,9 +105,35 @@
 .ex-10-icon {
     font-size: 60px;
 }
+
+.ex-10-icon{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+      transform: rotate(3turn);  
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: spinlitle 2s linear infinite;
+}
+
+@keyframes spinlitle{
+    0%{
+        transform: rotate(0);
+    }
+
+    80%{
+        transform: rotate(365deg) ;
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
